@@ -46,7 +46,7 @@ railway up
 
 9. Spring Boot port config 
 ```
-mvn spring-boot:run -Dspring-boot.run.arguments=--port=8085
+mvn spring-boot:run -Dspring.boot.run.arguments=--port=8085
 ```
 
 10. Settting env var port value
