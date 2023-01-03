@@ -43,3 +43,16 @@ railway init
 ```
 railway up
 ```
+
+9. Spring Boot port config 
+```
+mvn spring-boot:run -Dspring-boot.run.arguments=--port=8085
+```
+
+10. Settting env var port value
+
+```
+export APP_PORT=8090
+
+set APP_PORT=8090
+```
